@@ -10,13 +10,18 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --port 4173 --strictPort",
-    "iconos": "node scripts/iconos.mjs"
+    "iconos": "node scripts/iconos.mjs",
+    "pruebas": "playwright test",
+    "a1": "node scripts/a1-manifiesto.mjs",
+    "a7": "node scripts/a7-secretos.mjs",
+    "a8": "node scripts/a8-publicado.mjs"
   },
   "dependencies": {
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "1.64.1",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "typescript": "7.0.2",
